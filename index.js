@@ -1,7 +1,7 @@
 // str_replace
 // replace all occurrences of one string with another
 
-// made a utility function as extending native object is considered bad as it encourages collisions
+// made a utility function as extending native objects is considered bad as it encourages collisions as mootools experienced
 
 /**
  * ReplaceAll by Fagner Brack (MIT Licensed)
