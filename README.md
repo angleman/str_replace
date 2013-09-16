@@ -12,6 +12,7 @@ npm install str_replace
 
 ```
 var str_replace = require('str_replace');
+var source  = 'okay.this.IS.a.string';
 
 result = str_replace('.', '.', source);
 console.log(result);                              // okay this is a string
