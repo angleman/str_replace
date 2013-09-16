@@ -1,6 +1,6 @@
 {
   "name": "str_replace",
-  "version": "0.1.5", 
+  "version": "0.1.6", 
   "description": "replace all occurrences of one string with another",
    "main": "index.js",
   "scripts": {
