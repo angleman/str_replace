@@ -1,4 +1,28 @@
-str_replace
-===========
+# str_replace [![NPM version](https://badge.fury.io/js/str_replace.png?branch=master)](https://npmjs.org/package/str_replace) [![Build Status](https://travis-ci.org/angleman/str_replace.png?branch=master)](https://travis-ci.org/angleman/str_replace) [![Dependency Status](https://gemnasium.com/angleman/str_replace.png?branch=master)](https://gemnasium.com/angleman/str_replace) [![License](http://badgr.co/use/MIT.png?bg=%2343d100)](#licensemit)
 
-replace all occurrences of one string with another
+Replace all occurrences of one string with another that according to Fagner is faster than regex. Functionality is available PHP :scream: form str_replace(from, to, source [,ignoreCase]). Would do string.prototype.replaceAll as the credited author did; however, prototyping native objects ends up encouraging collisions.
+
+## Install :hammer:
+
+```
+npm install str_replace
+```
+
+## Usage :bulb:
+
+```
+var str_replace = require('str_replace');
+
+result = str_replace('.', '.', source);
+console.log(result);                              // okay this is a string
+
+result = str_replace('is', 'AK', source);
+console.log(result);                              // okay thAK AK a string
+```
+
+## Origin Credit :busts_in_silhouette:
+
+[Fagner Brack](http://stackoverflow.com/questions/2390789/how-to-replace-all-periods-in-a-string-in-javascript/9918856)
+
+## License: MIT :unlock:
+
