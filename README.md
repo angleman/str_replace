@@ -16,7 +16,7 @@ var str_replace = require('str_replace');
 result = str_replace('.', '.', source);
 console.log(result);                              // okay this is a string
 
-result = str_replace('is', 'AK', source);
+result = str_replace('is', 'AK', source, true);
 console.log(result);                              // okay thAK AK a string
 ```
 
